@@ -1,0 +1,265 @@
+body
+{
+	background-image: url("media/homeart.jpg");
+	background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+div.logo
+{
+	background-color:rgba(0,0,0,0.2);
+	position:absolute;
+	left:0;
+	right:0;
+	top: 0;
+	
+	
+	padding-top: 0px;
+	padding-left: 15px;
+	padding-bottom: 18px;
+	font-family: sans-serif;
+	border-radius:0px;
+	height: 100%;
+}
+a.logo
+{
+	color: #fdf2e9;
+	font-size: 35px;
+	font-weight: bold;
+	
+	font-family: "Giddyup Std",sans-serif;
+	padding-left:10px;
+	z-index:3;
+	/*animation: color 30s infinite;*/
+}
+a.logo:hover
+{
+	animation: color 1s infinite;
+}
+
+@keyframes color
+{
+	0%{ color: #9b9b9b;}
+	10%{ color: #fd7979;}
+	20%{ color: #ffc282;}
+	30%{ color: #eeef8b;}
+	40%{ color: #97ef8b;}
+	50%{ color: #8befee;}
+	60%{ color: #8b9def;}
+	70%{ color: #e58bef;}
+	80%{ color: #ef8bd8;}
+	90%{ color: #c38bef;}
+	100%{ color: #9b9b9b;}
+}
+a
+{
+	text-decoration: none;
+	transition: color 0.3s;
+	color: #ececec;
+}
+a:hover
+{
+	color: black;
+	transition: color 0.3s;
+}
+
+td.menu:hover
+{
+	padding-bottom: 4px;
+	border: 3px solid rgba(249,191,18,0);
+	border-bottom: 3px solid rgba(249,191,18,0);
+	background-color: rgba(249,191,18,0.5);
+	color: black;
+	transition: background-color 0.3s;
+}
+a.login
+{
+	background-color: green;
+	border-radius: 4px;
+	padding: 7px;
+	font-size: 22px;
+	vertical-align: middle;
+	color: #ffffff;
+}
+a.login:hover
+{
+	box-shadow: 0px 0px 20px rgba(210,255,202,0.5);
+	transition: box-shadow 0.3s;
+}
+
+table.contact
+{
+	border-radius: 0px;
+	background: rgba(221, 185, 255, 0.4);
+	
+	font-size: 20px;
+	height: 458px;
+	width: 400px;
+	position: absolute;
+	top: 180px;
+	left: 900px;
+	/*height: 61.9%;
+	width: 28%;
+	float: left;
+	z-index: 1;*/z-index: 1;
+	/*box-shadow: 5px 5px 60px black;*/
+}
+
+table.form
+{
+	
+	padding-left: 30px;
+	padding-top: 22px;
+	padding-bottom: 32px;
+	padding-right: 30px;
+	background: rgba(255, 255, 255, 0.4);
+	position: absolute;
+	top: 180px;
+	left: 200px;
+	float: right;
+	height: 100px;width: 700px;
+	margin-right: 10 0px;
+	z-index: 1;
+}
+textarea.input
+{
+	border-radius: 15px;
+	height: 80px;width: 300px;
+	border: 0.4px solid grey;
+}
+input.input
+{
+	border-radius: 25px;
+	height: 40px;width: 300px;
+	border: 0.4px solid grey;
+}
+input,textarea
+{
+	padding-left: 10px;padding-right: 10px;
+}
+input:focus,textarea
+{
+	outline: none !important;
+}
+
+th.contact
+{
+	font-family: "Arial",sans-serif;
+}
+th.form
+{
+	font-family: "Arial",sans-serif;
+}
+select
+{
+	text-align-last:center;
+}
+input.submit
+{
+	height: 30px;width: 100px;
+	border-radius: 10px;
+}
+div.footer
+{
+	border-top: 2px solid rgba(255,255,255,0.4);
+	
+	clear: left;
+	
+	/*padding-top: 105px;*/
+	height: 90px;
+	color: white;
+	z-index: 0;
+	
+	position: absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	top: 680px;
+}
+div.rightfooter
+{
+	margin-top: 30px;
+	margin-left: 20px;
+	float:left;
+	z-index:2
+}
+table.leftfooter
+{
+	
+	margin-top: 20px;
+	margin-left: 20px;
+	float:right;
+	z-index:3
+}
+img.fb
+{
+	height: 40px;
+	width: 40px;	
+}
+div.fb
+{
+	height: 40px;
+	width: 40px;
+	border-radius: 19px;transition: background-color 0.3s;	
+}
+div.insta
+{
+	height: 40px;
+	width: 40px;transition: background-color 0.3s;	
+}
+div.fb:hover
+{
+	width:40px;
+	height: 40px;
+	transition: background-color 0.3s;
+	background-color: #3b5998;
+	z-index:4;
+}
+img.insta
+{
+	height: 40px;
+	width: 40px;
+	float:right;
+}	
+
+div.insta:hover
+{
+	width:40px;
+	height: 40px;
+	border-radius: 14px;
+	background-image: url("instagram color1.jpg") ;
+	z-index:4;
+	transition: background-color 0.3s;
+}
+div.twitter
+{
+	height: 40px;
+	width: 40px;
+	float:right;
+	border-radius: 30px;transition: background-color 0.3s;
+}
+img.twitter
+	{
+	padding-top:8px;
+	height: 25px;
+	width: 25px;
+	}
+div.twitter:hover
+{
+	width:40px;
+	height: 40px;
+	transition: background-color 0.3s;
+	background-color:#2DAAE1;
+	z-index:5;
+}
+div.contactus
+{
+	border: 2px solid green;
+	border-radius: 20px;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+a.c{color:black;}
+a.c:hover{color:green;}
